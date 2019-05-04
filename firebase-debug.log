@@ -1,0 +1,112 @@
+[debug] [2019-05-04T07:20:32.008Z] ----------------------------------------------------------------------
+[debug] [2019-05-04T07:20:32.010Z] Command:       D:\Programs\nodejs\node.exe C:\Users\profe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-05-04T07:20:32.010Z] CLI Version:   6.8.0
+[debug] [2019-05-04T07:20:32.010Z] Platform:      win32
+[debug] [2019-05-04T07:20:32.010Z] Node Version:  v10.15.1
+[debug] [2019-05-04T07:20:32.012Z] Time:          Sat May 04 2019 17:20:32 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2019-05-04T07:20:32.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-04T07:20:32.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-04T07:20:32.024Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\Ng7\CapX
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-05-04T07:20:40.405Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-04T07:20:40.405Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-04T07:20:48.853Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-04T07:20:48.869Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-05-04T07:20:55.052Z] <<< HTTP RESPONSE 200
+[info] i  Using project capx-741b4 (CapX)
+[info] 
+=== Firestore Setup
+[debug] [2019-05-04T07:21:17.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-04T07:21:17.223Z] > authorizing via signed-in user
+[debug] [2019-05-04T07:21:17.224Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/capx-741b4  
+ 
+[debug] [2019-05-04T07:21:34.280Z] <<< HTTP RESPONSE 200
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2019-05-04T07:21:53.232Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/capx-741b4/releases?pageSize=10&pageToken=  
+ 
+[debug] [2019-05-04T07:22:07.139Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-04T07:22:07.140Z] No rulesets found, using default.
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2019-05-04T07:22:13.568Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta2/projects/capx-741b4/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2019-05-04T07:22:13.568Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta2/projects/capx-741b4/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2019-05-04T07:22:15.953Z] <<< HTTP RESPONSE 400
+[debug] [2019-05-04T07:22:15.954Z] <<< HTTP RESPONSE BODY
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2019-05-04T07:22:15.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-04T07:22:15.972Z] > authorizing via signed-in user
+[debug] [2019-05-04T07:22:15.972Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/capx-741b4  
+ 
+[debug] [2019-05-04T07:22:15.977Z] <<< HTTP RESPONSE 400
+[debug] [2019-05-04T07:22:15.977Z] <<< HTTP RESPONSE BODY
+[debug] [2019-05-04T07:22:32.184Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-04T07:22:32.189Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/capx-741b4?updateMask=usageSettings  
+
+[debug] [2019-05-04T07:22:32.191Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/capx-741b4?updateMask=usageSettings  
+
+[debug] [2019-05-04T07:22:40.637Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-04T07:22:42.490Z] <<< HTTP RESPONSE 200
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/tsconfig.json
+[info] +  Wrote functions/src/index.ts
+[info] +  Wrote functions/.gitignore
+[info] 
+[error] NPM install failed, continuing with Firebase initialization...
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-05-04T07:35:11.247Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-05-04T07:35:26.228Z] <<< HTTP RESPONSE 200
+[info] +  Wrote dist/index.html
+[info] 
+=== Storage Setup
+[info] 
+[info] Firebase Storage Security Rules allow you to define how and when to allow
+[info] uploads and downloads. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] i  Writing configuration info to firebase.json...
+[info] i  Writing project information to .firebaserc...
+[info] 
+[info] +  Firebase initialization complete!
