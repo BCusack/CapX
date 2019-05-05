@@ -9,6 +9,7 @@
 
 # dependencies
 /node_modules
+/functions/node_modules
 /src/environments
 **/src/environments/environment.prod.ts
 **/src/environments/environment.ts
