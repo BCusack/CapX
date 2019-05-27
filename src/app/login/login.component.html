@@ -16,51 +16,49 @@
                   <div class="authBlock">
                     <h3>Sign In</h3>
                     <div class="formGroup">
-                      <input type="text" class="formControl" placeholder="Username" #userName required>
-                    </div>
-                    <div class="formGroup">
-                      <input type="password" class="formControl" placeholder="Password" #userPassword required>
+                      <input type="text" class="form-control mt-2" #userName required placeholder="Username">
+                      <input type="password" class="form-control my-2" placeholder="Password" #userPassword required>
                     </div>
                     <!-- Calling SignIn Api from AuthService -->
                     <div class="formGroup">
-                      <input type="button" class="btn btnPrimary" value="Log in"
-                        (click)="authService.SignIn(userName.value, userPassword.value)">
-                    </div>
-                    <div class="formGroup">
-                      <span class="or"><span class="orInner">Or</span></span>
-                    </div>
-                    <!-- Calling GoogleAuth Api from AuthService -->
-                    <div class="formGroup">
-                      <button type="button" class="btn googleBtn" (click)="authService.GoogleAuth()">
-                        <i class="fab fa-google-plus-g"></i>
-                        Log in with Google
+                      <button type="button" class="btn btn-danger" value="Log in"
+                        (click)="authService.SignIn(userName.value, userPassword.value)">Log In
                       </button>
+                      <div class="formGroup">
+                        <span class="or"><span class="orInner">Or</span></span>
+                      </div>
+                      <!-- Calling GoogleAuth Api from AuthService -->
+                      <div class="formGroup">
+                        <button type="button" class="btn   btn-danger text-uppercase"
+                          (click)="authService.GoogleAuth()">
+                          <i class="fab fa-google mr-2"></i> Sign in with Google
+                        </button>
+                      </div>
+                      <div class="forgotPassword">
+                        <span routerLink="/forgot-password">Forgot Password?</span>
+                      </div>
                     </div>
-                    <div class="forgotPassword">
-                      <span routerLink="/forgot-password">Forgot Password?</span>
+                    <div class="redirectToLogin">
+                      <span>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign
+                          Up</span></span>
                     </div>
-                  </div>
-                  <div class="redirectToLogin">
-                    <span>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign
-                        Up</span></span>
                   </div>
                 </div>
-              </div>
 
+              </div>
+              <!--/card-block-->
             </div>
-            <!--/card-block-->
+            <!-- /form card login -->
+
           </div>
-          <!-- /form card login -->
+
 
         </div>
-
+        <!--/row-->
 
       </div>
-      <!--/row-->
-
+      <!--/col-->
     </div>
-    <!--/col-->
+    <!--/row-->
   </div>
-  <!--/row-->
-</div>
-<app-footer></app-footer>
+  <app-footer></app-footer>
