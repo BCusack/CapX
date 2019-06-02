@@ -5,7 +5,7 @@ import { AuthGuard } from './core/auth.guard';
 
 const routes: Routes = [
 
-  { path: '', loadChildren: './dash/dash.module#DashModule', canActivate: [AuthGuard] },
+  { path: '', loadChildren: () => import('./dash/dash.module').then(m => m.DashModule), canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent }
 ];
 
