@@ -4,13 +4,14 @@ export interface Project {
     name: string;
     description: string;
     location: Location;
-    contractor: Contractor;
+    contractors: Contact[];
     internalPO: number;
     customerPO: number;
     creationDate: Date;
     dueStartDate: Date;
     dueCompletionDate: Date;
-    stage: Stage[];
+    stackHolders: Contact[];
+    stage: Stage;
     notes: Notes[];
 }
 
@@ -28,10 +29,10 @@ export interface Stage {
     color: string;
 }
 
-export interface Contractor {
+export interface Contact {
     id: number;
     name: string;
-    services: string[];
+    email: string;
 }
 
 export interface Notes {
