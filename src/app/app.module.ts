@@ -11,10 +11,18 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AuthService } from './core/auth.service';
+import { FooterComponent } from './shared/footer/footer.component';
+import { NavComponent } from './shared/nav/nav.component';
+import { DashboardComponent } from './dash/dashboard/dashboard.component';
+import { AddProjectComponent } from './dash/add-project/add-project.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    AddProjectComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
