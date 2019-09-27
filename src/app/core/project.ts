@@ -1,28 +1,30 @@
 
 export interface Project {
-    id: number;
+    id?: string;
     name: string;
     description: string;
+    owner: Contact;
     location: Location;
     contractors: Contact[];
     internalPO: number;
     customerPO: number;
+    WKO: string;
     creationDate: Date;
     dueStartDate: Date;
     dueCompletionDate: Date;
-    stackHolders: Contact[];
-    stage: Stage;
+    stakeHolders: Contact[];
+    stage: string;
     notes: Notes[];
 }
 
 export interface Location {
-    id: number;
+    id?: number;
     name: string;
     description: string;
 }
 
 export interface Stage {
-    id: number;
+    id?: number;
     name: string;
     description: string;
     complete: boolean;
@@ -30,13 +32,13 @@ export interface Stage {
 }
 
 export interface Contact {
-    id: number;
+    id?: number;
     name: string;
     email: string;
 }
 
 export interface Notes {
-    id: number;
+    id?: number;
     note: string;
     date: Date;
 }
