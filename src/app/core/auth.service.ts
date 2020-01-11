@@ -78,7 +78,7 @@ export class AuthService {
     return this.AuthLogin(new auth.GoogleAuthProvider());
   }
   // Auth logic to run auth providers
-  AuthLogin(provider) {
+  AuthLogin(provider: auth.AuthProvider) {
     return this.afAuth.auth.signInWithPopup(provider)
       .then((result) => {
         this.ngZone.run(() => {
