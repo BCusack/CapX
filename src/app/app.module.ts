@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -15,6 +15,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { DashboardComponent } from './dash/dashboard/dashboard.component';
 import { AddProjectComponent } from './dash/add-project/add-project.component';
+import { BootstrapModule } from './bootstrap/bootstrap.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,9 @@ import { AddProjectComponent } from './dash/add-project/add-project.component';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFirestoreModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    BootstrapModule
 
   ],
   providers: [AuthService],
