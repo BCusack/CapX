@@ -17,6 +17,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { DashboardComponent } from './dash/dashboard/dashboard.component';
 import { AddProjectComponent } from './dash/add-project/add-project.component';
 import { BootstrapModule } from './bootstrap/bootstrap.module';
+import { MsalModule } from '@azure/msal-angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,10 @@ import { BootstrapModule } from './bootstrap/bootstrap.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     BootstrapModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MsalModule.forRoot({
+      clientID: environment.graph.appID
+    })
 
   ],
   providers: [AuthService],
