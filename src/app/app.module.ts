@@ -11,7 +11,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
-import { AuthService } from './core/auth.service';
+import { AuthService } from './core/services/auth.service';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { DashboardComponent } from './dash/dashboard/dashboard.component';
@@ -31,7 +31,7 @@ import { MsalModule } from '@azure/msal-angular';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    AngularFirestoreModule,
+    AngularFirestoreModule.enablePersistence(),
     AppRoutingModule,
     BrowserAnimationsModule,
     BootstrapModule,

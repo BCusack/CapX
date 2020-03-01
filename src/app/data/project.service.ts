@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Project } from '../core/project';
+import { Project } from '../core/services/project';
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument, DocumentReference } from '@angular/fire/firestore';
 import { Observable } from 'rxjs/internal/Observable';
 import { map, take } from 'rxjs/operators';
@@ -11,16 +11,10 @@ export class ProjectService {
   private projects: Observable<Project[]>;
   private projectCollection: AngularFirestoreCollection<Project>;
   constructor(private afs: AngularFirestore) {
-    this.projectCollection = this.afs.collection<Project>('Project');
-    this.projects = this.projectCollection.snapshotChanges().pipe(
-      map(actions => {
-        return actions.map(a => {
-          const data = a.payload.doc.data();
-          const id = a.payload.doc.id;
-          return { id, ...data };
-        });
-      })
-    );
+    this.projectCollection = this.afs.collection<Project>('Project', ref => {
+      return ref.orderBy('owner');
+    });
+    this.projects = this.projectCollection.valueChanges();
   }
   public getProjects(): Observable<Project[]> {
     return this.projects;

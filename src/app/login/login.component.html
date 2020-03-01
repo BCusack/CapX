@@ -20,48 +20,47 @@
                       <input type="password" class="form-control my-2" placeholder="Password" #userPassword required>
                     </div>
                     <!-- Calling SignIn Api from AuthService -->
-                    <div class="formGroup">
+                    <!-- <div class="formGroup">
                       <button type="button" class="btn btn-danger" value="Log in"
                         (click)="authService.SignIn(userName.value, userPassword.value)">Log In
                       </button>
                       <div class="formGroup">
                         <span class="or"><span class="orInner">Or</span></span>
-                      </div>
-                      <!-- Calling GoogleAuth Api from AuthService -->
-                      <div class="formGroup">
-                        <button type="button" class="btn   btn-danger text-uppercase"
-                          (click)="authService.GoogleAuth()">
-                          <i class="fab fa-google mr-2"></i> Sign in with Google
-                        </button>
-                        <button type="button" class="btn   btn-danger text-uppercase" (click)="authService.MSAuth()">
-                          <i class="fab fa-google mr-2"></i> Sign in with Microsoft
-                        </button>
-                      </div>
-                      <div class="forgotPassword">
-                        <span routerLink="/forgot-password">Forgot Password?</span>
-                      </div>
+                      </div> -->
+                    <!-- Calling GoogleAuth Api from AuthService -->
+                    <div class="formGroup">
+                      <!-- <button type="button" class="btn   btn-danger text-uppercase" (click)="authService.SignIn()">
+                        <i class="fab fa-google mr-2"></i> Sign in with Google
+                      </button> -->
+                      <button type="button" class="btn   btn-danger text-uppercase" (click)="authService.signIn()">
+                        <i class="fab fa-google mr-2"></i> Sign in with Microsoft
+                      </button>
                     </div>
-                    <div class="redirectToLogin">
-                      <span>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign
-                          Up</span></span>
+                    <div class="forgotPassword">
+                      <span routerLink="/forgot-password">Forgot Password?</span>
                     </div>
                   </div>
+                  <div class="redirectToLogin">
+                    <span>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign
+                        Up</span></span>
+                  </div>
                 </div>
-
               </div>
-              <!--/card-block-->
+
             </div>
-            <!-- /form card login -->
-
+            <!--/card-block-->
           </div>
-
+          <!-- /form card login -->
 
         </div>
-        <!--/row-->
+
 
       </div>
-      <!--/col-->
+      <!--/row-->
+
     </div>
-    <!--/row-->
+    <!--/col-->
   </div>
-  <app-footer></app-footer>
+  <!--/row-->
+</div>
+<app-footer></app-footer>
