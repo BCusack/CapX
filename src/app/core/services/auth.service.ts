@@ -3,9 +3,10 @@ import { MsalService } from '@azure/msal-angular';
 
 import { AlertsService } from './alerts.service';
 import { OAuthSettings } from '../services/auth';
-import { User } from './user';
+import { User, GraphUser } from './user';
 import { Client } from '@microsoft/microsoft-graph-client';
-
+import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -13,10 +14,11 @@ import { Client } from '@microsoft/microsoft-graph-client';
 export class AuthService {
   public authenticated: boolean;
   public user: User;
-
+  public graphUser: GraphUser;
   constructor(
     private msalService: MsalService,
-    private alertsService: AlertsService) {
+    private alertsService: AlertsService,
+    private router: Router) {
 
     this.authenticated = false;
     this.user = null;
@@ -34,7 +36,7 @@ export class AuthService {
       this.authenticated = true;
       // Temporary placeholder
       this.user = await this.getUser();
-
+      this.router.navigate(['']);
     }
   }
 
@@ -47,7 +49,7 @@ export class AuthService {
 
   // Silently request an access token
   async getAccessToken(): Promise<string> {
-    const result = await this.msalService.acquireTokenSilent(OAuthSettings.scopes)
+    const result = await this.msalService.acquireTokenSilent(environment.graph.scopes)
       .catch((reason) => {
         this.alertsService.add('Get token failed', JSON.stringify(reason, null, 2));
       });
@@ -78,12 +80,12 @@ export class AuthService {
     });
 
     // Get the user from Graph (GET /me)
-    const graphUser = await graphClient.api('/me').get();
+    this.graphUser = await graphClient.api('/me').get();
 
 
-    this.user.displayName = graphUser.displayName;
+    this.user.displayName = this.graphUser.displayName;
     // Prefer the mail property, but fall back to userPrincipalName
-    this.user.email = graphUser.mail || graphUser.userPrincipalName;
+    this.user.email = this.graphUser.mail || this.graphUser.displayName;
 
     return this.user;
   }
