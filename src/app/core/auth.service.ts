@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { MsalService } from '@azure/msal-angular';
 
-import { AlertsService } from '../alerts.service';
-import { OAuthSettings } from '../auth';
-import { User } from '../user';
+import { AlertsService } from './alerts.service';
+import { OAuthSettings } from '../core/auth';
+import { User } from './user';
 import { Client } from '@microsoft/microsoft-graph-client';
 
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Project } from 'src/app/core/services/project';
+import { Project } from '../../core/project';
 import { ProjectService } from '../../data/project.service';
 @Component({
   selector: 'app-dashboard',

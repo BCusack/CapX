@@ -11,13 +11,17 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
-import { AuthService } from './core/services/auth.service';
+import { AuthService } from './core/auth.service';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { DashboardComponent } from './dash/dashboard/dashboard.component';
 import { AddProjectComponent } from './dash/add-project/add-project.component';
 import { BootstrapModule } from './bootstrap/bootstrap.module';
-import { MsalModule } from '@azure/msal-angular';
+import {
+  MsalModule
+} from '@azure/msal-angular';
+
+import { OAuthSettings } from './core/auth';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,11 +41,13 @@ import { MsalModule } from '@azure/msal-angular';
     BootstrapModule,
     FontAwesomeModule,
     MsalModule.forRoot({
-      clientID: environment.graph.appID
+      clientID: OAuthSettings.appId,
+      popUp: true
     })
 
   ],
-  providers: [AuthService],
+  providers: [
+    AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

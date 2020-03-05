@@ -1,10 +1,9 @@
-export interface User {
-    uid: string;
-    email: string;
+export class User {
     displayName: string;
-    photoURL: string;
-    emailVerified: boolean;
+    email: string;
+    avatar: string;
 }
+
 export interface GraphUser {
     businessPhones: [
         string
