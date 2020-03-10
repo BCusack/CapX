@@ -18,7 +18,11 @@ export class AuthService {
     private msalService: MsalService,
     private alertsService: AlertsService) {
 
-    this.authenticated = false;
+    if (this.msalService.getUser()) {
+      this.authenticated = true;
+    } else {
+      this.authenticated = false;
+    }
     this.user = null;
   }
 
@@ -32,6 +36,7 @@ export class AuthService {
 
     if (result) {
       this.authenticated = true;
+
       // Temporary placeholder
       this.user = await this.getUser();
 
@@ -57,6 +62,7 @@ export class AuthService {
     return result;
   }
   private async getUser(): Promise<User> {
+
     if (!this.authenticated) { return null; }
 
     const graphClient = Client.init({

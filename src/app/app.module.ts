@@ -42,7 +42,7 @@ import { OAuthSettings } from './core/auth';
     FontAwesomeModule,
     MsalModule.forRoot({
       clientID: OAuthSettings.appId,
-      popUp: true
+      popUp: false
     })
 
   ],

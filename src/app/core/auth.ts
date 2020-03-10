@@ -5,5 +5,13 @@ export const OAuthSettings = {
     scopes: [
         'user.read',
         'calendars.read'
-    ]
+    ],
+    auth: {
+        authority: 'https://login.microsoftonline.com/common/',
+        validateAuthority: true,
+        redirectUri: 'http://localhost:4200/',
+        postLogoutRedirectUri: 'http://localhost:4200/',
+        navigateToLoginRequestUrl: true,
+        loginRediect: true
+    }
 };

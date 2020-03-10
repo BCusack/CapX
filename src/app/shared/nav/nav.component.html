@@ -12,11 +12,17 @@
         <a class="nav-link text-dark" routerLink="/contact-list" (click)="isMenuCollapsed = true">Contacts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" routerLink="/contact-create" (click)="isMenuCollapsed = true">Create</a>
+        <a class="nav-link text-dark" routerLink="/new" (click)="isMenuCollapsed = true">Create</a>
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+      <ng-container *ngIf="authService.authenticated; else elseTemplate">
+        <div>Authenticated</div>
+      </ng-container>
+      <ng-template #elseTemplate>
+        <div>Not Authenticated</div>
+      </ng-template>
+
     </span>
   </div>
 </nav>
