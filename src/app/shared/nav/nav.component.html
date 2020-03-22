@@ -17,7 +17,7 @@
     </ul>
     <span class="navbar-text">
       <ng-container *ngIf="authService.authenticated; else elseTemplate">
-        <div>Authenticated</div>
+        <div>{{authService.userData.displayableId  }}</div>
       </ng-container>
       <ng-template #elseTemplate>
         <div>Not Authenticated</div>

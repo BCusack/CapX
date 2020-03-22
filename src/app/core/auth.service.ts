@@ -13,6 +13,8 @@ import { Client } from '@microsoft/microsoft-graph-client';
 export class AuthService {
   public authenticated: boolean;
   public user: User;
+  userData: any;
+
 
   constructor(
     private msalService: MsalService,
@@ -20,10 +22,14 @@ export class AuthService {
 
     if (this.msalService.getUser()) {
       this.authenticated = true;
+      this.userData = this.msalService.getUser();
+      localStorage.setItem('user', JSON.stringify(this.userData));
+      JSON.parse(localStorage.getItem('user'));
     } else {
       this.authenticated = false;
+      localStorage.setItem('user', null);
+      JSON.parse(localStorage.getItem('user'));
     }
-    this.user = null;
   }
 
   // Prompt the user to sign in and
@@ -48,6 +54,8 @@ export class AuthService {
     this.msalService.logout();
     this.user = null;
     this.authenticated = false;
+    localStorage.removeItem('user');
+
   }
 
   // Silently request an access token
@@ -61,7 +69,7 @@ export class AuthService {
     if (result) { this.alertsService.add('Token acquired', result); }
     return result;
   }
-  private async getUser(): Promise<User> {
+  async getUser(): Promise<User> {
 
     if (!this.authenticated) { return null; }
 
@@ -90,7 +98,7 @@ export class AuthService {
     user.displayName = graphUser.displayName;
     // Prefer the mail property, but fall back to userPrincipalName
     user.email = graphUser.mail || graphUser.userPrincipalName;
-
+    console.log(user.displayName);
     return user;
   }
 }
