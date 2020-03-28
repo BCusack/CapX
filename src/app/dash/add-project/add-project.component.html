@@ -1,18 +1,20 @@
 <div class="container mt-5">
-  <form>
-    <div class="form-group">
-      <label for="titleInput">Title</label>
-      <input type="text" class="form-control" id="titleImput" aria-describedby="titleHelp" placeholder="Project Title">
-    </div>
-    <div class="form-group">
-      <label for="discInput">Description</label>
-      <input type="text" class="form-control" id="discInput" placeholder="Description">
-    </div>
-    <div class="form-group">
-      <label for="locationInput">Location</label>
-      <input type="text" class="form-control" id="locationInput" placeholder="Location">
-    </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
+  <form [formGroup]="projectForm" (ngSubmit)="onSubmit(projectForm.value)">
+    <label for="titleInput">Project Title</label>
+    <input type="text" class="form-control" id="titleImput" aria-describedby="titleHelp" placeholder="Project Title"
+      formControlName="title">
+    <label for="discInput">Brief</label>
+    <input type="text" class="form-control" id="discInput" placeholder="Description" formControlName="description">
+    <label for="locationInput">Project Location</label>
+    <input type="text" class="form-control" id="locationInput" placeholder="Location" formControlName="location">
+    <label for="locationInput">Project Owner</label>
+    <input type="text" class="form-control" id="ownerInput" placeholder="Owner" formControlName="owner">
+    <label for="contractorsInput">Contractors</label>
+    <input type="text" class="form-control" id="contractorsInput" placeholder="Contractors"
+      formControlName="contractors">
+    <label for="stakeholdersInput">Contractors</label>
+    <input type="text" class="form-control" id="stakeholdersInput" placeholder="Stake Holders"
+      formControlName="stakeHolders">
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
   </form>
 </div>

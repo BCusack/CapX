@@ -5,17 +5,17 @@
       <thead>
         <tr>
           <th>Project</th>
-          <th>Owner</th>
-          <th>Created</th>
+          <th>Description</th>
+          <th>Dtart Date</th>
           <th>Stage</th>
           <th>Notes</th>
         </tr>
       </thead>
       <tbody class=" border " *ngFor="let data of (projects | async)">
         <tr>
-          <td>{{ data.name  }}</td>
-          <td>{{ data.owner  }}</td>
-          <td>{{ data.creationDate.toDate() | date }}</td>
+          <td>{{ data.title  }}</td>
+          <td>{{ data.description  }}</td>
+          <td>{{ data.dueStartDate}}</td>
           <td>{{ data.stage  }}</td>
           <td>{{ data.notes  }}</td>
           <!-- <td>

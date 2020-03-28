@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Project } from '../core/project';
+import { Project } from '../project';
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument, DocumentReference } from '@angular/fire/firestore';
 import { Observable } from 'rxjs/internal/Observable';
 import { map, take } from 'rxjs/operators';
@@ -31,11 +31,12 @@ export class ProjectService {
   }
 
   addProject(project: Project): Promise<DocumentReference> {
+    console.log(project);
     return this.projectCollection.add(project);
   }
 
   updateProject(project: Project): Promise<void> {
-    return this.projectCollection.doc(project.id).update({ name: project.name, notes: project.notes });
+    return this.projectCollection.doc(project.id).update({ name: project.title, notes: project.notes });
   }
 
   deleteProject(id: string): Promise<void> {

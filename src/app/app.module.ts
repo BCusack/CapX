@@ -22,6 +22,7 @@ import {
 } from '@azure/msal-angular';
 
 import { OAuthSettings } from './core/auth';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,8 @@ import { OAuthSettings } from './core/auth';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFirestoreModule.enablePersistence(),

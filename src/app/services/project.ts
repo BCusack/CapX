@@ -1,20 +1,20 @@
 
 export interface Project {
     id?: string;
-    name: string;
+    title: string;
     description: string;
     owner: Contact;
     location: Location;
     contractors: Contact[];
-    internalPO: number;
-    customerPO: number;
-    WKO: string;
-    creationDate: Date;
-    dueStartDate: Date;
-    dueCompletionDate: Date;
-    stakeHolders: Contact[];
-    stage: string;
-    notes: Notes[];
+    internalPO?: number;
+    customerPO?: number;
+    WKO?: string;
+    creationDate?: Date;
+    dueStartDate?: Date;
+    dueCompletionDate?: Date;
+    stakeHolders?: Contact[];
+    stage?: string;
+    notes?: Notes[];
 }
 
 export interface Location {
