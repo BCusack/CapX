@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Project } from '../../services/project';
-import { ProjectService } from '../../services/data/project.service';
+import { ProjectService } from '../../services/project.service';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
