@@ -1,0 +1,40 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(microsoft.graph.plannerBucket)",
+  "@odata.count": 5,
+  "value": [{
+      "@odata.etag": "W/\"JzEtQnVja2V0QEBAQEBAQEBAQEBAQEBAUCc=\"",
+      "name": "Complete",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "orderHint": "85865\\0",
+      "id": "0WfdQGmM5EGh-ezPqK-yYWQACHRx"
+    },
+    {
+      "@odata.etag": "W/\"JzEtQnVja2V0QEBAQEBAQEBAQEBAQEBAVCc=\"",
+      "name": "Monitoring",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "orderHint": "858663Y",
+      "id": "YKEKcN-K50GPdPKGrNzpt2QALR0Q"
+    },
+    {
+      "@odata.etag": "W/\"JzEtQnVja2V0QEBAQEBAQEBAQEBAQEBAVCc=\"",
+      "name": "Execution",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "orderHint": "Il",
+      "id": "ysm_QJHAzk2wewYwafkKn2QAK-DU"
+    },
+    {
+      "@odata.etag": "W/\"JzEtQnVja2V0QEBAQEBAQEBAQEBAQEBAXCc=\"",
+      "name": "Quoting",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "orderHint": "[Q",
+      "id": "lWJUsDKGrkqUTT3gZd_M5WQAAeX5"
+    },
+    {
+      "@odata.etag": "W/\"JzEtQnVja2V0QEBAQEBAQEBAQEBAQEBAZCc=\"",
+      "name": "Planning",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "orderHint": "lP",
+      "id": "GU9TRgeDGkCclufFDTkOy2QAO27Y"
+    }
+  ]
+}

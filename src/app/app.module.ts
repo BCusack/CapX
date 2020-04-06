@@ -18,7 +18,7 @@ import { DashboardComponent } from './dash/dashboard/dashboard.component';
 import { AddProjectComponent } from './dash/add-project/add-project.component';
 import { BootstrapModule } from './bootstrap/bootstrap.module';
 import {
-  MsalModule
+  MsalModule, MsalService
 } from '@azure/msal-angular';
 
 import { OAuthSettings } from './core/auth';
@@ -44,13 +44,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BootstrapModule,
     FontAwesomeModule,
     MsalModule.forRoot({
-      clientID: OAuthSettings.appId,
-      popUp: false
+      auth: {
+        clientId: OAuthSettings.appId
+      }
+    }, {
+      popUp: true,
+      consentScopes: ['https://graph.microsoft.com/User.ReadWrite']
     })
 
   ],
   providers: [
-    AuthService],
+    AuthService, MsalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
