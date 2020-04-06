@@ -1,0 +1,2270 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(microsoft.graph.plannerTask)",
+  "@odata.count": 49,
+  "value": [{
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAaCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "GU9TRgeDGkCclufFDTkOy2QAO27Y",
+      "title": "Fawkner Park signage",
+      "orderHint": "8586163319751863505Px",
+      "assigneePriority": "",
+      "percentComplete": 0,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-27T02:09:30.5099758Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": null,
+      "id": "sHpo7UQpxUaMQPbQeYqD62QAMlpx",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+        }
+      },
+      "appliedCategories": {},
+      "assignments": {}
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBVCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "GU9TRgeDGkCclufFDTkOy2QAO27Y",
+      "title": "Q201184 Irrigation Ramp - Wetlands pump house",
+      "orderHint": "8586163456541274690Pk",
+      "assigneePriority": "",
+      "percentComplete": 0,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-26T22:21:31.3969759Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 7,
+      "activeChecklistItemCount": 4,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAQj4tyn50gEyCwn8zYTXCzhAAQj4tyn50gEyCwn8zYTXCzg==",
+      "id": "tpkg-Jy9yE2BdF0etjF4FGQABaBi",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+        }
+      },
+      "appliedCategories": {
+        "category5": true
+      },
+      "assignments": {}
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAfCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "lWJUsDKGrkqUTT3gZd_M5WQAAeX5",
+      "title": "Q101577 Fitzroy Gardens No Cycling signs",
+      "orderHint": "8586170279694118928Pr",
+      "assigneePriority": "",
+      "percentComplete": 50,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-19T00:49:36.1593901Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAg1Rfl3Guhk6V6tsppKrbtRAAg1Rfl3Guhk6V6tsppKrbtQ==",
+      "id": "nHOVmC5-EE6s7-48JdjbzGQAMRR7",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "107423be-9b60-4ad2-8329-c5b7ba30ba53": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-19T00:49:36.1593901Z",
+          "orderHint": "8586170279694118928PM",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "lWJUsDKGrkqUTT3gZd_M5WQAAeX5",
+      "title": "Q101559 Carlton North Turf",
+      "orderHint": "8586171138898621942PB",
+      "assigneePriority": "8586171138898621942Pg",
+      "percentComplete": 50,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-18T00:57:35.7560522Z",
+      "dueDateTime": "2020-03-31T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA7cyEo0W14ketQptqiJqS3RAA7cyEo0W14ketQptqiJqS3Q==",
+      "id": "bQTb9pYEs0iitgkI0V4w82QANA6H",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-18T00:57:35.7560522Z",
+          "orderHint": "8586171138898621942P:",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAdCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "lWJUsDKGrkqUTT3gZd_M5WQAAeX5",
+      "title": "Q101562 Various Parks Top Dressing 2020",
+      "orderHint": "8586171144358096655P.",
+      "assigneePriority": "8586171144358096655P(",
+      "percentComplete": 50,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-18T00:48:29.8398382Z",
+      "dueDateTime": "2020-03-30T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAPKQ7NnIh_Uqht0E9hA6lLBAAPKQ7NnIh_Uqht0E9hA6lLA==",
+      "id": "nkSOyC6HyEKcs2Iu1tyjrmQANu7K",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-18T00:48:29.8398382Z",
+          "orderHint": "8586171144358096655Pg",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCTCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "GU9TRgeDGkCclufFDTkOy2QAO27Y",
+      "title": "Q101573 R1 Recycle Bin Decals",
+      "orderHint": "8586171148240022136P,",
+      "assigneePriority": "",
+      "percentComplete": 0,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-18T00:42:01.6474528Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "description",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 13,
+      "activeChecklistItemCount": 11,
+      "conversationThreadId": null,
+      "id": "Z1igtVC_EE2YgTb6RDpVpmQAFmR7",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "107423be-9b60-4ad2-8329-c5b7ba30ba53": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-18T00:47:12.2896513Z",
+          "orderHint": "8586171145134692185P[",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "GU9TRgeDGkCclufFDTkOy2QAO27Y",
+      "title": "Maribynong - bike path repair",
+      "orderHint": "8586171151363895436P}",
+      "assigneePriority": "",
+      "percentComplete": 0,
+      "startDateTime": null,
+      "createdDateTime": "2020-03-18T00:36:49.3224078Z",
+      "dueDateTime": null,
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 6,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA9XO3-Bh9mkScFidzNvHx7RAA9XO3-Bh9mkScFidzNvHx7Q==",
+      "id": "Dd1FanE_TUGmkVMcXXLSVWQAL9Rf",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+        }
+      },
+      "appliedCategories": {
+        "category4": true
+      },
+      "assignments": {
+        "107423be-9b60-4ad2-8329-c5b7ba30ba53": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-18T00:47:18.4533902Z",
+          "orderHint": "8586171145070398492PF",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "107423be-9b60-4ad2-8329-c5b7ba30ba53"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCeCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "ysm_QJHAzk2wewYwafkKn2QAK-DU",
+      "title": "Q201176 Esplanade North Reinstatement",
+      "orderHint": "8586171975271887450Pm",
+      "assigneePriority": "",
+      "percentComplete": 50,
+      "startDateTime": "2020-04-01T10:00:00Z",
+      "createdDateTime": "2020-03-17T01:43:38.3669666Z",
+      "dueDateTime": "2020-04-03T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "reference",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 2,
+      "checklistItemCount": 7,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAt28VrH044kiTl6WUjXXqxBAAt28VrH044kiTl6WUjXXqxA==",
+      "id": "sUJgUBMJGkWb0jMqbSfh7GQAPdO2",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "107423be-9b60-4ad2-8329-c5b7ba30ba53": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2020-03-17T01:52:28.9105553Z",
+          "orderHint": "8586171969965982565PI",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBUCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "ysm_QJHAzk2wewYwafkKn2QAK-DU",
+      "title": "Q101493 Batman Ave Bollars",
+      "orderHint": "8586279308190102543P@",
+      "assigneePriority": "8586279304419342480",
+      "percentComplete": 0,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:15:26.5298341Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": null,
+      "completedBy": null,
+      "referenceCount": 0,
+      "checklistItemCount": 6,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA0UpBZlAfbEuswLTMIFHqqxAA0UpBZlAfbEuswLTMIFHqqw==",
+      "id": "WdDWJ8RbekGIWI0gmDgJIGQAPH6j",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:20:43.5433327Z",
+          "orderHint": "8586279305019654974PX",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAdCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101491 Swan St Bridge Irrigation Renewel",
+      "orderHint": "8586279308006357242P@",
+      "assigneePriority": "8586279305855492562",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:15:44.9980997Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:39.6634937Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAzxCkrhPF106HFOqkp8vaUhAAzxCkrhPF106HFOqkp8vaUg==",
+      "id": "CJaJq9SSe0iwQEcK_4Pg8mQAG3mx",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:18:19.9283245Z",
+          "orderHint": "8586279306455961282PZ",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101492 Speakers Corner Path Markings",
+      "orderHint": "8586279308096816311P0",
+      "assigneePriority": "8586279305693223843",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:15:35.9678726Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:36.3547806Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAb7ThH8TnMkKGBU-6Q9ItmxAAb7ThH8TnMkKGBU-6Q9Itmw==",
+      "id": "w_cS-XyM0U6KCWbvR4BBUmQACCyD",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:18:36.1551964Z",
+          "orderHint": "8586279306294161486Ph",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAcCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101490 Balston St Nature Strip",
+      "orderHint": "8586279307902758539Pl",
+      "assigneePriority": "8586279306674633710",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:15:55.2642374Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:23.7102441Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAC7ILdSvj70_o8hw3f38YyBAAC7ILdSvj70_o8hw3f38YyA==",
+      "id": "e4TrclP-Uk6D1GxOZJ5A-WQAAYOq",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:16:58.0142097Z",
+          "orderHint": "8586279307275570887Pz",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAeCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101501 Sikh Parade Reinstatement",
+      "orderHint": "8586279308767297777Pk",
+      "assigneePriority": "8586279301865733806",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:14:28.8258904Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:21.1456077Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAARiJ_nqID_EO0VB1tTsLt5RAARiJ_nqID_EO0VB1tTsLt5Q==",
+      "id": "9VXWdaBBGUKVH96pKtJj82QAAsIl",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:24:58.9042001Z",
+          "orderHint": "8586279302466202222P~",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBQCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101498 Stapley Pde Bench Relocation",
+      "orderHint": "8586279308354004430Po",
+      "assigneePriority": "8586279303449635477",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-11-13T20:15:10.1552658Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:18.6244307Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA2Hl3cw8zckmq_AeMafJrTxAA2Hl3cw8zckmq_AeMafJrTw==",
+      "id": "r3ipL6c300auYjg5hlec52QABrBM",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {},
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:22:20.514033Z",
+          "orderHint": "8586279304049947986PO",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBQCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101483 Fitzroy Turf 2019",
+      "orderHint": "8586279284606372063PK",
+      "assigneePriority": "8586279283955903642",
+      "percentComplete": 100,
+      "startDateTime": "2019-11-19T10:00:00Z",
+      "createdDateTime": "2019-11-13T20:54:45.0122454Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:24:04.2082861Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAWOeB5RkUikS488_Ufk9T1BAAWOeB5RkUikS488_Ufk9T1A==",
+      "id": "dte-D6ivb0uB6YOqqdIxo2QABtaC",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-11-13T20:54:49.8872165Z",
+          "orderHint": "8586279284556216152PX",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAaCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101477 Kings Domain Stair Drain",
+      "orderHint": "8586318110295622240",
+      "assigneePriority": "8586318110295622240",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-09-29T22:24:15.9153567Z",
+      "dueDateTime": null,
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": "2020-02-24T04:23:54.319493Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAloPtUCqw8k6jGeGNE54oixAAloPtUCqw8k6jGeGNE54oiw==",
+      "id": "U4gixwDnFUWQP5KfekLgumQALMxg",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-09-29T22:24:15.9153567Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAeCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101482 M'Pavillion Irrigation",
+      "orderHint": "8586315355676827258",
+      "assigneePriority": "8586315355676827258",
+      "percentComplete": 100,
+      "startDateTime": "2019-10-07T10:00:00Z",
+      "createdDateTime": "2019-10-03T02:55:17.7948549Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-11-13T20:25:23.1073492Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAR5SEHLmB3kieaFnkFFyGFhAAR5SEHLmB3kieaFnkFFyGFg==",
+      "id": "LufV6uHs-UCdptkSHDeC1mQAC4WK",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category3": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-10-03T02:55:17.7948549Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBTCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101455 Fawkner Park Irrigation Reinstatement",
+      "orderHint": "8586317985817112972",
+      "assigneePriority": "8586317985817112972",
+      "percentComplete": 100,
+      "startDateTime": "2019-10-01T10:00:00Z",
+      "createdDateTime": "2019-09-30T01:51:43.7662835Z",
+      "dueDateTime": "2019-10-01T10:00:00Z",
+      "hasDescription": false,
+      "previewType": "noPreview",
+      "completedDateTime": "2019-10-24T01:09:16.5985756Z",
+      "referenceCount": 1,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA7OVkaKh-QEyDs-NQCXdxFhAA7OVkaKh-QEyDs-NQCXdxFg==",
+      "id": "qr2-3aqzm0qY9dmDXKWPNGQADSkk",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-09-30T01:51:43.7662835Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBWCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101475 Commercial Rd Turf and Hoops",
+      "orderHint": "8586318109323487097",
+      "assigneePriority": "8586318109323487097",
+      "percentComplete": 100,
+      "startDateTime": "2019-10-03T10:00:00Z",
+      "createdDateTime": "2019-09-29T22:25:53.128871Z",
+      "dueDateTime": "2019-10-04T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "checklist",
+      "completedDateTime": "2019-10-24T01:07:42.8353641Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAXn9plfioLkKNEG9MacubBxAAXn9plfioLkKNEG9MacubBw==",
+      "id": "O7oAwHrTbEanuhfklAX6K2QAGz2D",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category6": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-09-29T22:25:53.128871Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101349 Carlton North Bin Corrals",
+      "orderHint": "8586520076695437552",
+      "assigneePriority": "8586520076659515594",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-02-08T04:13:35.9338255Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-09-29T22:19:45.2556056Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAEm93RiZOF0id8_-V1eWjQxAAEm93RiZOF0id8_-V1eWjQw==",
+      "id": "h87BNqLAh0-nFwZae0extGQAMj4E",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-08T04:13:39.5260213Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAeCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101351 Fawkner Playground Planting",
+      "orderHint": "8586517604694434041",
+      "assigneePriority": "8586517604647912912",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-02-11T00:53:36.0341766Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-09-29T22:19:42.6194998Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAVn60gF2JDk_HoAMKNHHLIBAAVn60gF2JDk_HoAMKNHHLIA==",
+      "id": "G1YEXapm1EahrqR80VftamQAN189",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-11T00:53:40.6862895Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBVCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101296 Fitzroy Small Asphalt Repair",
+      "orderHint": "8586588398328348237",
+      "assigneePriority": "8586588398302226239",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2018-11-21T02:24:12.642757Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "noPreview",
+      "completedDateTime": "2019-09-29T22:19:40.9225736Z",
+      "referenceCount": 1,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA_GHHtbrlkE6eLSAJdFoANxAA_GHHtbrlkE6eLSAJdFoANw==",
+      "id": "5w0EhXCna0mIrudLIdgT82QAAvQy",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-21T02:24:15.2549568Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAfCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101348 Errol Street Planting",
+      "orderHint": "8586520119391995593",
+      "assigneePriority": "8586520118075539875",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-02-08T03:02:26.2780214Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-09-29T22:19:38.6162565Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAALFGWPWdkyEa5TKkH4RPhTBAALFGWPWdkyEa5TKkH4RPhTA==",
+      "id": "SjmykpZeuU6njxH5-FWBq2QAB6JH",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-08T03:04:37.9235932Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBSCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101375 Carlton South Fountain Upgrade",
+      "orderHint": "8586489847039689921",
+      "assigneePriority": "8586489847039689921",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-03-15T03:56:21.5085886Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-09-29T22:19:32.378512Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAANgH_RoR82U_-4ZeeLR4m5RAANgH_RoR82U_-4ZeeLR4m5Q==",
+      "id": "d5bqkVOH8k-H_O-mP4PS22QALMZX",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-03-15T03:56:21.5085886Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101289 Shrine Path Works",
+      "orderHint": "8586595358479714397",
+      "assigneePriority": "8586588357108514755",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2018-11-13T01:03:57.506141Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-09-29T22:19:30.7288234Z",
+      "referenceCount": 0,
+      "checklistItemCount": 6,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAz9F6xzdQrUCJM1QT6R2ZPhAAz9F6xzdQrUCJM1QT6R2ZPg==",
+      "id": "gVRpwABTwkaQXlzTbkKRS2QAG80D",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-21T03:32:54.6261052Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAfCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101365 Shrine Tunnel Reinstatment",
+      "orderHint": "8586504617163380377",
+      "assigneePriority": "8586504617108659553",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-02-26T01:39:29.139543Z",
+      "dueDateTime": null,
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": "2019-05-29T00:58:50.5540766Z",
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 3,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAl2uen90J_kG4y-EnxT6IMRAAl2uen90J_kG4y-EnxT6IMQ==",
+      "id": "-1NfVhmTSkqqEJwakwwIHWQAJ7LB",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category3": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-26T01:39:34.6116254Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBaCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101297 Tudor Village Repair",
+      "orderHint": "8586577979108039911",
+      "assigneePriority": "8586577979068328444",
+      "percentComplete": 100,
+      "startDateTime": "2019-03-01T10:00:00Z",
+      "createdDateTime": "2018-12-03T03:49:34.6735896Z",
+      "dueDateTime": "2019-03-31T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-05-29T00:58:47.6470756Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAAhEsWuB_LEWpOXWd0uZLyhAAAhEsWuB_LEWpOXWd0uZLyg==",
+      "id": "JVnX8-HFJEOTZZvUYLeOrWQADftp",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-12-03T03:49:38.6447363Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAfCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101362 Fawkner Tennis Court Bollard",
+      "orderHint": "8586504616815388170",
+      "assigneePriority": "8586504616695063556",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2019-02-26T01:40:03.9387637Z",
+      "dueDateTime": null,
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": "2019-05-29T00:58:45.4457727Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAARYROFP5FGkSZaOXoA-BL7hAARYROFP5FGkSZaOXoA-BL7g==",
+      "id": "r8J3w-075UOFFk8g4fvgzWQAM9JK",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-26T01:40:15.9712251Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBbCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101234 Commercial Rd SE Turf Irrigation",
+      "orderHint": "8586590218725753692",
+      "assigneePriority": "8586590218691672859",
+      "percentComplete": 100,
+      "startDateTime": "2019-02-11T10:00:00Z",
+      "createdDateTime": "2018-11-18T23:50:12.9022115Z",
+      "dueDateTime": "2019-02-15T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-05-29T00:58:41.7413792Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA8q2kmGb6mkS-OQtbkSmiSRAA8q2kmGb6mkS-OQtbkSmiSQ==",
+      "id": "G-iKYJYvQkGbHvWrYIwFCWQAHa7i",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-18T23:50:16.3102948Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBaCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101286 Fire Yard Bench",
+      "orderHint": "8586598841206332188",
+      "assigneePriority": "8586588357225418975",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2018-11-09T00:19:24.8443619Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-05-29T00:58:40.365662Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAQNXTclkgr02Yl-I4x8f1OBAAQNXTclkgr02Yl-I4x8f1OA==",
+      "id": "Odx92pcZLkG-XzVVXcbIJWQAHWvr",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category3": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-21T03:32:42.9356832Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBXCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101324 Carlton Gdns Fountain Upgrade",
+      "orderHint": "8586520148993689467",
+      "assigneePriority": "8586520148806170727",
+      "percentComplete": 100,
+      "startDateTime": "2019-02-28T10:00:00Z",
+      "createdDateTime": "2019-02-08T02:13:06.108634Z",
+      "dueDateTime": "2019-03-08T10:00:00Z",
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": "2019-03-15T02:57:14.8420418Z",
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAvTMgULeea0emdKpbS3kpoxAAvTMgULeea0emdKpbS3kpow==",
+      "id": "dE_diDIRGUiwGUoSBBTpGGQAHkyX",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-08T02:13:24.860508Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBTCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101288 Shrine Toilet Path",
+      "orderHint": "8586598708637415520",
+      "assigneePriority": "8586520149061033226",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2018-11-09T04:00:21.7360287Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-03-15T02:57:08.1746142Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAJJnpupfIAEqpjrq86hFwERAAJJnpupfIAEqpjrq86hFwEQ==",
+      "id": "-pu6O-RtAUuNZ6JmlHMf5WQAFvo1",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2019-02-08T02:12:59.3742581Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBDQCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101293 Various Parks Turf Repair",
+      "orderHint": "8586588389885649535",
+      "assigneePriority": "8586588388962814677",
+      "percentComplete": 100,
+      "startDateTime": "2019-02-08T10:00:00Z",
+      "createdDateTime": "2018-11-21T02:38:16.9126272Z",
+      "dueDateTime": "2019-03-30T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-26T01:38:11.3121601Z",
+      "referenceCount": 0,
+      "checklistItemCount": 11,
+      "activeChecklistItemCount": 4,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAFirRI0lm5Eyvtly4VD-CFxAAFirRI0lm5Eyvtly4VD-CFw==",
+      "id": "Ubywkfd_GU2FEcbBnam-vGQAOCBk",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-21T02:39:49.196113Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBUCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101208 Flagstaff Gdns Heritage Bollards",
+      "orderHint": "8586596097309682038",
+      "assigneePriority": "8586590217934797170",
+      "percentComplete": 100,
+      "startDateTime": "2018-12-21T10:00:00Z",
+      "createdDateTime": "2018-11-12T04:32:34.5093769Z",
+      "dueDateTime": "2018-12-21T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:37:21.1007092Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAApqXloOHWdEumEObz6g15gRAApqXloOHWdEumEObz6g15gQ==",
+      "id": "9KGH2IXNBU6a43EnzeVAGGQAHulo",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-18T23:51:31.9978637Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBRCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101303 Fitzroy Bench Relocation",
+      "orderHint": "8586578080115029561",
+      "assigneePriority": "8586578080069630937",
+      "percentComplete": 100,
+      "startDateTime": null,
+      "createdDateTime": "2018-12-03T01:01:13.9746246Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:34:15.4683216Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAss5dFjg4W0OYalriI01psBAAss5dFjg4W0OYalriI01psA==",
+      "id": "260EINVdfke-5LFdY1oS-mQAJXgQ",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-12-03T01:01:18.514487Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCTCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101291 Shrine Drinking Fountains",
+      "orderHint": "8586590231648120284",
+      "assigneePriority": "8586590231589202237",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-30T10:00:00Z",
+      "createdDateTime": "2018-11-18T23:28:40.6655523Z",
+      "dueDateTime": "2018-12-14T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:31:41.95423Z",
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAaQddBbMIiUmJs9KQoMJHyxAAaQddBbMIiUmJs9KQoMJHyw==",
+      "id": "hWUVbfXM-0GPo3--RJudImQAOOSD",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-18T23:28:46.557357Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBZCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101308 Fitzroy Mound Path Clean",
+      "orderHint": "8586588402659410206",
+      "assigneePriority": "8586588402214348201",
+      "percentComplete": 100,
+      "startDateTime": "2018-12-13T10:00:00Z",
+      "createdDateTime": "2018-11-21T02:16:59.5365601Z",
+      "dueDateTime": null,
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:31:38.1574092Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAK8JEjdWMLEuoUT7gHJJhnhAAK8JEjdWMLEuoUT7gHJJhng==",
+      "id": "TevLYEDOX06bmag4vVeqe2QAJ6dy",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-21T02:17:44.0427606Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBdCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101284 Morell Bridge Path Signage",
+      "orderHint": "8586598862431994576",
+      "assigneePriority": "8586584270383264916",
+      "percentComplete": 100,
+      "startDateTime": "2018-12-12T10:00:00Z",
+      "createdDateTime": "2018-11-08T23:44:02.2781231Z",
+      "dueDateTime": "2018-12-14T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:31:28.0323402Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA0lztkloTSECHSCY2XLRx8RAA0lztkloTSECHSCY2XLRx8Q==",
+      "id": "yLnRvvO-mUKLHpabx513GGQAEe8S",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-25T21:04:07.1510891Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCcCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101254 Commercial Rd Substation Planting Stage 2",
+      "orderHint": "8586607230601165814",
+      "assigneePriority": "8586607230508211117",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-29T10:00:00Z",
+      "createdDateTime": "2018-10-30T07:17:05.3609993Z",
+      "dueDateTime": "2018-12-07T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "noPreview",
+      "completedDateTime": "2019-02-08T01:31:22.4457174Z",
+      "referenceCount": 1,
+      "checklistItemCount": 7,
+      "activeChecklistItemCount": 2,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAnhX7SRBYeUCdQppqUzqEHhAAnhX7SRBYeUCdQppqUzqEHg==",
+      "id": "hdJlVw2CFUWJQrQhX8rJSGQAPyUj",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-10-30T07:17:14.656469Z",
+          "orderHint": "8586607231108679884Pv",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBSCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101311 Rice Festival Reinstatement",
+      "orderHint": "8586570424976896037",
+      "assigneePriority": "8586570424893460493",
+      "percentComplete": 100,
+      "startDateTime": "2018-12-17T10:00:00Z",
+      "createdDateTime": "2018-12-11T21:39:47.787977Z",
+      "dueDateTime": "2018-12-18T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:31:18.2457449Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAArVqxW-ZfTU6hKAz6nePx8RAArVqxW-ZfTU6hKAz6nePx8Q==",
+      "id": "kbOLiMye8EWaBYUMDMUwQWQAK8xG",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-12-11T21:39:56.1315314Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBWCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101218 QV Terra-Firma lid",
+      "orderHint": "8586596095721913651",
+      "assigneePriority": "8586590217875890642",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-26T10:00:00Z",
+      "createdDateTime": "2018-11-12T04:35:13.2862156Z",
+      "dueDateTime": "2018-12-07T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:30:58.8701988Z",
+      "referenceCount": 0,
+      "checklistItemCount": 2,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAnlcr4G4oOEqi7iF4KLvVqhAAnlcr4G4oOEqi7iF4KLvVqg==",
+      "id": "pOzXZiMIO0mKCD60l65nl2QAAJQ8",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-18T23:51:37.8885165Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBdCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101283 Commercial rd Mound Turf",
+      "orderHint": "8586598866381853049",
+      "assigneePriority": "8586598866330822882",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-29T10:00:00Z",
+      "createdDateTime": "2018-11-08T23:37:27.2922758Z",
+      "dueDateTime": "2018-12-07T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:30:56.9143465Z",
+      "referenceCount": 0,
+      "checklistItemCount": 4,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAArjDUEaw-QkezNXM5FkzkbBAArjDUEaw-QkezNXM5FkzkbA==",
+      "id": "eXgH2QiC8UOx8ubUold4DmQAHSbn",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-08T23:37:32.3952925Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCXCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101285 Fawkner Slater st Turf Repair",
+      "orderHint": "8586598839725592350",
+      "assigneePriority": "8586590204628130167",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-23T10:00:00Z",
+      "createdDateTime": "2018-11-09T00:21:52.9183457Z",
+      "dueDateTime": "2018-12-07T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2019-02-08T01:30:54.1827314Z",
+      "referenceCount": 0,
+      "checklistItemCount": 6,
+      "activeChecklistItemCount": 1,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAqPDi6IpMr0OTE0VHtEVPNRAAqPDi6IpMr0OTE0VHtEVPNQ==",
+      "id": "2M__Ef40LECAScepXqOdjGQAGCjt",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-19T00:13:42.664564Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBSCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101038 Fitzroy Gardens Drink Fountain Upgrade",
+      "orderHint": "8586608326490370216",
+      "assigneePriority": "8586608326490370216",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-12T10:00:00Z",
+      "createdDateTime": "2018-10-29T00:50:36.4405591Z",
+      "dueDateTime": "2018-12-14T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2018-11-28T22:17:36.0779012Z",
+      "referenceCount": 0,
+      "checklistItemCount": 0,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAvXd725pOoUqcDYa-aEtDohAAvXd725pOoUqcDYa-aEtDog==",
+      "id": "VmkLUdOSQkmJJcayWO1ZpGQAB438",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-10-29T00:50:36.4405591Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBcCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101238 Clowes st Road Side Planting",
+      "orderHint": "8586602267373024291",
+      "assigneePriority": "8586602266688954294",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-07T10:00:00Z",
+      "createdDateTime": "2018-11-05T01:09:08.1751516Z",
+      "dueDateTime": "2018-11-22T12:00:00Z",
+      "hasDescription": true,
+      "previewType": "noPreview",
+      "completedDateTime": "2018-11-22T22:57:37.1605025Z",
+      "referenceCount": 0,
+      "checklistItemCount": 0,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAA9sEVol3MW0ypa1CbaOoLZxAA9sEVol3MW0ypa1CbaOoLZw==",
+      "id": "1ODyD_qjm0yBUZ3A7ASjZGQAKGtv",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category2": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-05T01:10:16.5821513Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBVCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Q101237 Boathouse Dr Small Turf",
+      "orderHint": "8586598739205378970",
+      "assigneePriority": "",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-13T10:00:00Z",
+      "createdDateTime": "2018-11-09T03:09:24.9396837Z",
+      "dueDateTime": "2018-11-21T12:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2018-11-22T22:57:31.6873653Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAN6XJaFtMekatYk1ecosCkBAAN6XJaFtMekatYk1ecosCkA==",
+      "id": "IB3Iks1kyUqrTbllpcEuGWQAAfEd",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {}
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBCQCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Treasury Pond Repair",
+      "orderHint": "8586609316599040974",
+      "assigneePriority": "8586609305115895555",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-01T10:00:00Z",
+      "createdDateTime": "2018-10-27T21:20:25.5734833Z",
+      "dueDateTime": "2018-11-01T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "noPreview",
+      "completedDateTime": "2018-11-12T03:28:43.5687286Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAQ_f6neC2VkWRdHMQ4KBGZBAAQ_f6neC2VkWRdHMQ4KBGZA==",
+      "id": "3BjZ2SttJ0qc0YBqJ7EHfGQAJDd_",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category4": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-10-27T21:39:33.8880252Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBUCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Shrine Reserve Track Matting Reinstatement",
+      "orderHint": "8586608355623025565",
+      "assigneePriority": "8586608355623025565",
+      "percentComplete": 100,
+      "startDateTime": "2018-11-07T10:00:00Z",
+      "createdDateTime": "2018-10-29T00:02:03.1750242Z",
+      "dueDateTime": "2018-11-07T10:00:00Z",
+      "hasDescription": true,
+      "previewType": "automatic",
+      "completedDateTime": "2018-11-11T01:55:29.1901574Z",
+      "referenceCount": 0,
+      "checklistItemCount": 3,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAUKqS3alQyUeNbgKoorBr0RAAUKqS3alQyUeNbgKoorBr0Q==",
+      "id": "vOrzyErOyki5H7QzbpfvLGQAHOdC",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {},
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-10-29T00:02:03.1750242Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBBTCc=\"",
+      "planId": "dtVwXF68kkmnbZ_Bw5VySGQAEWn_",
+      "bucketId": "0WfdQGmM5EGh-ezPqK-yYWQACHRx",
+      "title": "Dolphin pond Reinstatement",
+      "orderHint": "8586609317131382379",
+      "assigneePriority": "8586602352149495238",
+      "percentComplete": 100,
+      "startDateTime": "2018-10-30T10:00:00Z",
+      "createdDateTime": "2018-10-27T21:19:32.3393428Z",
+      "dueDateTime": "2018-10-30T10:00:00Z",
+      "hasDescription": false,
+      "previewType": "automatic",
+      "completedDateTime": "2018-11-11T01:55:20.5963875Z",
+      "referenceCount": 0,
+      "checklistItemCount": 1,
+      "activeChecklistItemCount": 0,
+      "conversationThreadId": "AAQkADQ3MGYxZjc3LWEzMTYtNDM5NC1iMzA3LWY5YWEwZDM1ODkxNQMkABAAeIjuN65jS0CQFVLiE8g_exAAeIjuN65jS0CQFVLiE8g_ew==",
+      "id": "6sBacAwYR0Gyo3MQf09pBGQAAT7L",
+      "createdBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "completedBy": {
+        "user": {
+          "displayName": null,
+          "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+        }
+      },
+      "appliedCategories": {
+        "category1": true
+      },
+      "assignments": {
+        "0d3107be-1e67-48ce-88ae-19c16a55a981": {
+          "@odata.type": "#microsoft.graph.plannerAssignment",
+          "assignedDateTime": "2018-11-04T22:47:50.5280569Z",
+          "orderHint": "",
+          "assignedBy": {
+            "user": {
+              "displayName": null,
+              "id": "0d3107be-1e67-48ce-88ae-19c16a55a981"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

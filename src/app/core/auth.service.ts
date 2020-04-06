@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { MsalService } from '@azure/msal-angular';
 
 import { AlertsService } from './alerts.service';
-import { OAuthSettings } from '../core/auth';
+import { OAuthSettings } from './auth';
 import { User } from './user';
 import { Client } from '@microsoft/microsoft-graph-client';
 
@@ -13,16 +13,18 @@ import { Client } from '@microsoft/microsoft-graph-client';
 export class AuthService {
   public authenticated: boolean;
   public user: User;
+
   userData: any;
+
 
 
   constructor(
     private msalService: MsalService,
     private alertsService: AlertsService) {
 
-    if (this.msalService.getUser()) {
+    if (this.msalService.getAccount()) {
       this.authenticated = true;
-      this.userData = this.msalService.getUser();
+      this.userData = this.msalService.getAccount();
       localStorage.setItem('user', JSON.stringify(this.userData));
       JSON.parse(localStorage.getItem('user'));
     } else {
@@ -35,7 +37,7 @@ export class AuthService {
   // Prompt the user to sign in and
   // grant consent to the requested permission scopes
   async signIn(): Promise<void> {
-    const result = await this.msalService.loginPopup(OAuthSettings.scopes)
+    const result = await this.msalService.loginPopup(OAuthSettings)
       .catch((reason) => {
         this.alertsService.add('Login failed', JSON.stringify(reason, null, 2));
       });
@@ -59,14 +61,14 @@ export class AuthService {
   }
 
   // Silently request an access token
-  async getAccessToken(): Promise<string> {
-    const result = await this.msalService.acquireTokenSilent(OAuthSettings.scopes)
+  async getAccessToken(): Promise<any> {
+    const result = await this.msalService.acquireTokenSilent(OAuthSettings.auth)
       .catch((reason) => {
         this.alertsService.add('Get token failed', JSON.stringify(reason, null, 2));
       });
 
     // Temporary to display token in an error box
-    if (result) { this.alertsService.add('Token acquired', result); }
+    // if (result) { this.alertsService.add('Token acquired', result); }
     return result;
   }
   async getUser(): Promise<User> {

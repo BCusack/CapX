@@ -1,4 +1,8 @@
 
+import { Timestamp } from '@firebase/firestore-types';
+
+
+
 export interface Project {
     id?: string;
     title: string;
@@ -6,12 +10,12 @@ export interface Project {
     owner: Contact;
     location: Location;
     contractors: Contact[];
-    internalPO?: number;
-    customerPO?: number;
+    internalPO?: string;
+    customerPO?: string;
     WKO?: string;
-    creationDate?: Date;
-    dueStartDate?: Date;
-    dueCompletionDate?: Date;
+    creationDate?: Timestamp;
+    dueStartDate?: Timestamp;
+    dueCompletionDate?: Timestamp;
     stakeHolders?: Contact[];
     stage?: string;
     notes?: Notes[];
@@ -40,5 +44,5 @@ export interface Contact {
 export interface Notes {
     id?: number;
     note: string;
-    date: Date;
+    date: Timestamp;
 }
